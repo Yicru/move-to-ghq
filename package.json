@@ -19,5 +19,8 @@
     "webpack": "^4.41.4",
     "webpack-cli": "^3.3.10",
     "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "git-remote-origin-url": "^3.0.0"
   }
 }
