@@ -1,0 +1,23 @@
+{
+  "name": "move-to-ghq",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prepare": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.dev.js --watch",
+    "build": "webpack",
+    "exec": "node dist/main.js"
+  },
+  "bin": {
+    "mtg": "./bin/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "prettier": "^1.19.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2"
+  }
+}
